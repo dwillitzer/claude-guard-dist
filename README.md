@@ -1,8 +1,14 @@
 # Claude Guard - Production Distribution
 
 **Version**: 1.0.115  
-**Build**: 53231790  
-**Size**: 13.6MB standalone executable
+**Build**: a0337938 (Fixed)  
+**Size**: 13.0MB standalone executable
+
+## ✅ Bug Fixes (v2)
+- Fixed statusline spam and config write storm
+- Fixed interactive mode hanging
+- Removed CCR dependency for distribution
+- Resolved `u$__filename` error
 
 ## Quick Start (macOS)
 
