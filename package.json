@@ -1,0 +1,12 @@
+{
+  "name": "claude-guard-production",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Claude Guard production build - CommonJS module",
+  "exports": {
+    ".": {
+      "import": "./claude-guard-production.mjs",
+      "require": "./claude-guard-production.js"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "generated": "2025-09-17T18:27:24.151Z",
+  "files": {
+    "bin/claude-guard.js": "202c697d7c1b808d7885e60add36b0fd3da2a40ad014718fd0988f660b76b9bc",
+    "bin/claude-orchestrate.js": "be61789a9d6d9bf999618937d979bfa3e2576b326497fd22a486f42c16f15537",
+    "bin/build.js": "90887c4b69ebb0ec2daa17377ea69519b42c11316a76ecb6ecd0b03bc02b3417"
+  },
+  "signature": "c162b845ca773ff0ea2ae1a81c592d14372024a099ed9b52af176105500f8cdaed693c450d5ece4839b29558dbf6dec55ca92ed0d78315cb3898d55ff6bb8a76"
+}
