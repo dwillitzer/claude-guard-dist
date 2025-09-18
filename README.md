@@ -1,14 +1,16 @@
 # Claude Guard - Production Distribution
 
 **Version**: 1.0.115  
-**Build**: a0337938 (Fixed)  
+**Build**: de5fb0d6 (Final Fix)  
 **Size**: 13.0MB standalone executable
 
-## ✅ Bug Fixes (v2)
-- Fixed statusline spam and config write storm
-- Fixed interactive mode hanging
-- Removed CCR dependency for distribution
-- Resolved `u$__filename` error
+## ✅ Bug Fixes (v3 - FINAL)
+- ✅ **FIXED: No longer requires --debug flag**
+- ✅ Fixed statusline spam and config write storm  
+- ✅ Fixed interactive mode hanging
+- ✅ Completely removed CCR routing (no localhost:3000 calls)
+- ✅ Resolved `u$__filename` error
+- ✅ Direct Anthropic API integration
 
 ## Quick Start (macOS)
 
