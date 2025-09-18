@@ -27,17 +27,27 @@ chmod +x claude-guard-production.js
 ./claude-guard-production.js --help
 ```
 
-### 3. Basic Usage
+### 3. Basic Usage (Choose One)
+
+#### **🎯 Recommended: Normal Claude Code Interface**
 ```bash
-# Interactive mode
+# Start normal Claude Code session (like claude.ai interface)
+./claude-guard-production.js -C
+
+# Or with direct prompt
+./claude-guard-production.js -C "list files in current directory"
+```
+
+#### **⚙️ Alternative: Autonomous Agent Mode**
+```bash
+# Autonomous mode with BMAD agents (advanced)
 ./claude-guard-production.js
 
-# Direct prompt
-./claude-guard-production.js "list files in current directory"
-
-# Autonomous mode
+# Or explicit autonomous mode
 ./claude-guard-production.js --mode autonomous "analyze this codebase"
 ```
+
+**💡 Tip**: Use `-C` flag for the standard Claude experience Josh expects!
 
 ### 4. Optional: Add to PATH
 ```bash
